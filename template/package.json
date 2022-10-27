@@ -1,0 +1,16 @@
+{
+    "name": "<%=projectName%>",
+    "version": "0.0.1",
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build"
+    },
+    "dependencies": {
+      "vue": "^2.6.10"
+    },
+    "description": "<%=description%>",
+    "devDependencies": {
+      <% if(qmark) { %>"@qnpm/qmark": "^1.1.4",<% } %>
+    }
+  }
+  

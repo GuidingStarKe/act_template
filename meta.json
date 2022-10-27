@@ -1,0 +1,20 @@
+{
+    "schema": {
+        "name": {
+            "name": "projectName",
+            "type": "string",
+            "label": "🌼 Project name",
+            "default": "my-app"
+        },
+        "description": {
+            "name": "description",
+            "type": "string",
+            "label": "💭 Project Description"
+        },
+        "qmark": {
+            "name": "qmark",
+            "type": "list",
+            "choices": ["yes", "no"]
+        }
+    }
+}
